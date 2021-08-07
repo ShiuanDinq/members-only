@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "font-awesome";
+ @import "bulma";
+
+ .navbar-brand .title{
+   color: antiquewhite;
+ }
+
+
+.notification:not(:last-child) {
+  margin-bottom: 0;
+}

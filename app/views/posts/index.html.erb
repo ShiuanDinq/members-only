@@ -1,1 +1,10 @@
-<h1>hurrray</h1>
+<div class="section">
+  <div class="container">
+    <div class="columns">
+      <% if user_signed_in? %>
+        <%= render 'profile' %>
+      <% end %>
+      <%= render 'feed' %>
+    </div>
+  </div>
+</div>
