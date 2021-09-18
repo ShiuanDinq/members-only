@@ -1,24 +1,11 @@
-# README
+# members-only
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+anaonymous message board app - ruby on rails
 
-Things you may want to cover:
+Part of 'The Odin Project' curriculum
 
-* Ruby version
+https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/members-only
 
-* System dependencies
+Check it live here:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://privateclubhouse.herokuapp.com/
