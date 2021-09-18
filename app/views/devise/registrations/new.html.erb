@@ -21,6 +21,11 @@
       </div>
 
       <div class="field">
+        <%= f.label "Profile Photo" %><br />
+        <%= f.file_field :avatar %>
+      </div>
+
+      <div class="field">
         <%= f.label :password %>
         <% if @minimum_password_length %>
         <em>(<%= @minimum_password_length %> characters minimum)</em>

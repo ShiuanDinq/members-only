@@ -1,5 +1,10 @@
-<div class="section">
+<div style="min-height:100vh" class="section has-background-primary">
   <div class="container">
+  <% unless user_signed_in? %>
+    <p class="is-size-2 has-text-danger">
+      Sign in to post
+    </p>
+  <% end %>
     <div class="columns">
       <% if user_signed_in? %>
         <%= render 'profile' %>

@@ -31,15 +31,15 @@
 
       <div class="navbar-menu">
           <div class="navbar-end">
-            <div class="navbar-item">
+            <% if user_signed_in? %>
+              <div class="navbar-item">
               <p>
                 <%= link_to "New Post", root_path, class: "button is-info is-inverted" %>       
               </p>
             </div>
-            <% if user_signed_in? %>
               <div class="navbar-item">
                 <p>
-                  <%= link_to "Edit", edit_user_registration_path, class: "button is-info is-inverted" %>       
+                  <%= link_to "Edit User", edit_user_registration_path, class: "button is-info is-inverted" %>       
                 </p>
               </div>
               <div class="navbar-item">
@@ -59,10 +59,15 @@
                 </p>
               </div>
             <% end %>
-
           </div>     
       </div>
     </nav>
+
+    <div style="z-index: 2; position: fixed; width: 100vw; bottom:0; margin: 0; display:flex; justify-content:center;" class="columns has-background-black">
+      <p class="is-size-7">
+          Ed2021. All rights reserved
+      </p>
+    </div>
 
 
 
